@@ -151,6 +151,8 @@ extern Oid CitusReadIntermediateResultFuncId(void);
 extern Oid CitusExtraDataContainerFuncId(void);
 extern Oid CitusWorkerHashFunctionId(void);
 extern Oid CitusTextSendAsJsonbFunctionId(void);
+extern Oid PgTableVisibleFuncId(void);
+extern Oid CitusTableVisibleFuncId(void);
 
 /* enum oids */
 extern Oid PrimaryNodeRoleId(void);
